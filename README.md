@@ -1,4 +1,4 @@
-# DFS File Server Redundancy Project
+# DFS File Server Redundancy
 
 ## Overview
 This project implements a redundant file server setup using Distributed File System (DFS) on Windows Server 2025, 
