@@ -177,11 +177,6 @@ Automation and failover testing are included to demonstrate enterprise-level adm
 
 ---
 
-### Screenshots
-- DFS Management showing `SalesData` namespace and `SalesReplication` group.
-- Client mapped drive during failover.
-- PowerShell script output and `DFS_Log.txt`.
-
 ### GitHub Upload
 1. **Create New Repository**:
    - On GitHub, create a repository named `DFS-File-Server-Redundancy-Project`.
@@ -200,7 +195,6 @@ Automation and failover testing are included to demonstrate enterprise-level adm
      ```
 ---
 
-### Additional Notes
-- This project showcases high-availability design, automation, and troubleshooting skills.
-- The second DC and namespace server configuration eliminated single points of failure.
-- 
+### Acknowledgements
+- Collaborated with Grok 3, built by xAI, for expert guidance and assistance in completing this project.
+- Collaborated with Grok 3, built by xAI, for expert guidance and assistance in completing this project.
