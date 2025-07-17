@@ -1,5 +1,3 @@
-Absolutely! Here is a **clear, actionable step-by-step guide** for the DFS File Server Redundancy Project on Windows Server 2025, mirroring the direct instructional style of your previous project guides.
-
 # Step-by-Step Guide: DFS File Server Redundancy Project (Windows Server 2025)
 
 ## 1. Prepare Your Lab Environment
