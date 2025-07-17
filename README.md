@@ -178,25 +178,6 @@ Get-DfsrReplicationGroup | ForEach-Object {
 
 ---
 
-## 🎥 Demo & Testing
-
-### 🔍 Health Check Script Output
-```
-2024-07-17 14:30:15 - Checking DFS Replication health...
-2024-07-17 14:30:16 - Replication Group: SalesReplication, Status: Normal
-2024-07-17 14:30:17 - Checking DFS Namespace health...
-2024-07-17 14:30:18 - Namespace: \\mydomain.local\SalesData, Targets: \\DC-00\SalesFolder
-2024-07-17 14:30:19 - DFS monitoring completed!
-```
-
-### 📊 Failover Test Results
-- **✅ Zero downtime** during DC-00 failure
-- **✅ Seamless failover** to FS-01
-- **✅ Complete data integrity** maintained
-- **✅ Automatic replication** upon recovery
-
----
-
 ## 🐛 Troubleshooting Guide
 
 ### Common Issues & Solutions
@@ -220,38 +201,6 @@ Restart-Service -Name "DFS Replication"
 
 # Check replication status
 Get-DfsrBacklogFileCount -GroupName "SalesReplication"
-```
-
----
-
-## 📈 Performance Metrics
-
-### 🎯 Project Achievements
-- **🚀 99.9% uptime** during testing phase
-- **⚡ < 2 second failover time**
-- **📊 Real-time monitoring** with automated alerts
-- **🔄 Instant file replication** across servers
-- **🛡️ Zero data loss** during failures
-
----
-
-## 📁 Repository Structure
-
-```
-DFS-File-Server-Redundancy-Project/
-├── 📄 README.md
-├── 📁 Scripts/
-│   ├── ⚡ Monitor-DFS.ps1
-│   └── 🔧 Setup-DFS.ps1
-├── 📁 Documentation/
-│   ├── 📋 Network-Diagram.png
-│   ├── 📊 Test-Results.md
-│   └── 🔍 Troubleshooting-Guide.md
-├── 📁 Screenshots/
-│   ├── 🖼️ DFS-Management-Console.png
-│   ├── 📸 Failover-Test.png
-│   └── 📊 Replication-Status.png
-└── 📄 LICENSE
 ```
 
 ---
