@@ -328,7 +328,3 @@ Get-DfsrBacklogFileCount -GroupName "SalesReplication"
 - **📈 Performance optimization** with tiered storage solutions
 
 ---
-
-## 🤝 Acknowledgements
-
-- Claude Sonnet | Deepseek ai | Stackoverflow
